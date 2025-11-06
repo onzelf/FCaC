@@ -90,7 +90,8 @@ Where DevOps unified code and infrastructure, **FCaC unifies governance and comp
 
 ## **9. Attribution and Rights**
 
-**Concept and Design:** Enzo Fenoglio (Independent Researcher)  
+This repository is licensed under the **Apache License, Version 2.0**.
+**Concept and Design:** Enzo L. Fenoglio (Independent Researcher)  
 **Project Goal:** To formalize and demonstrate executable governance for federated infrastructures.  
 **Status:** Open conceptual specification; reference implementations in progress.  
 
