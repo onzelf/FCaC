@@ -10,11 +10,14 @@ FCaC is a governance and admission substrate for federated computation: it compi
 ## An FCaC story
 An engineer arrives at a border to do a job.
 
-They show a **passport** (identity) and a **work permit (ECT)** (what is allowed). The **border officer (the gatekeeper)** verifies the permit deterministically and records **evidence**. Inside, they use the country’s **infrastructure (FC)** to work where assets live. At the worksite, a **live badge challenge (DPoP)** proves the requester is the legitimate holder now. The job itself might be **FL training**, but that is just one permitted workload; byproducts are governed assets with capability-scoped access.
+The engineer shows a **passport** (identity) and a **work permit (ECT)** (what is allowed). The **border officer (gatekeeper)** verifies the permit deterministically and records **admission evidence**. Inside, they use the country’s **infrastructure (FC)** to work where assets live. At the worksite, a **live badge challenge (DPoP)** proves the requester is the legitimate holder **at request time**. The job itself might be **FL training**, but that is just one permitted workload; **byproducts are governed assets** with capability-scoped access.
 
-**Without FCaC:** illegal immigration—work happens without deterministic admission or an evidence trail; infiltration and accountability failure become the default.  
-**Without FC:** border control exists, but no place to work—collaboration collapses to centralization (move data/compute/control).  
-**With only FL:** collaborative training inside a presumed trust domain; cross-jurisdiction custody and differential rights over byproducts are not enforced at boundaries.
+**Without FCaC:** It is *illegal immigration*, you can cross and work, but without an enforceable admission regime—no proof-carrying authorization, no deterministic gate, no evidence trail—so infiltration risk and accountability failure become the default.
+
+**Without FC:** You may have border control, but no country to work in. Collaboration collapses back to centralization (move data, move compute, or move control), breaking sovereignty and local responsibility.
+
+**With only FL:** Collaborative training inside a presumed trust domain; cross-jurisdiction custody and differential rights over byproducts are not enforced at boundaries. Joining training implicitly grants ambiguous rights over the byproducts, and post-training custody/access becomes an out-of-band operational matter rather than a boundary-enforced, auditable regime.
+
 
 ## Provenance (canonical disclosure)
 - First public release: **v0.9 (2025-11-07), commit 44b3da0**
@@ -22,5 +25,5 @@ They show a **passport** (identity) and a **work permit (ECT)** (what is allowed
   **da95d644730a71c6b200992195d1c27a2d801aef2414a96d2e37fc4ced846962**
 
 ## Technical repositories
-- [FCaC-MNIST (PoC / engineering doxs)](https://github.com/onzelf/FCaC-MNIST)
+- [FCaC-MNIST (PoC / engineering docs)](https://github.com/onzelf/FCaC-MNIST)
 - [FCaC-FLICS (PoC / engineering docs)](https://github.com/onzelf/FCaC-FLICS)
