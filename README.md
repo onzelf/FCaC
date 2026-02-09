@@ -7,7 +7,11 @@ FCaC is a governance and admission substrate for federated computation: it compi
 - **FC**: the execution plane for federated workloads (training, inference, analytics, ETL) where assets remain local.
 - **FCaC**: a separate governance/admission substrate that deterministically enforces constraints at boundaries and produces evidence.
 
+---
+
 ## An FCaC story
+>The following metaphor can help to clarify the differences between FL vs FC vs FCaC.
+
 An engineer arrives at a border to do a job.
 
 The engineer shows a **passport** (identity) and a **work permit (ECT)** (what is allowed). The **border officer (gatekeeper)** verifies the permit deterministically and records **admission evidence**. Inside, they use the country’s **infrastructure (FC)** to work where assets live. At the worksite, a **live badge challenge (DPoP)** proves the requester is the legitimate holder **at request time**. The job itself might be **FL training**, but that is just one permitted workload; **byproducts are governed assets** with capability-scoped access.
