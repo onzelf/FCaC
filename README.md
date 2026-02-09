@@ -30,4 +30,4 @@ The engineer shows a **passport** (identity) and a **work permit (ECT)** (what i
 
 ## Technical repositories
 - [FCaC-MNIST (PoC / engineering docs)](https://github.com/onzelf/FCaC-MNIST)
-- [FCaC-FLICS (PoC / engineering docs)](https://github.com/onzelf/FCaC-FLICS)
+- [FCaC-FLICS (PoC / engineering docs)](https://github.com/onzelf/FLICS-cross-silo-admission)
