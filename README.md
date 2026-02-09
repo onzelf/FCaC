@@ -24,7 +24,7 @@ The engineer shows a **passport** (identity) and a **work permit (ECT)** (what i
 
 
 ## Provenance (canonical disclosure)
-- First public release: **v0.9 (2025-11-07), commit 44b3da0**
+- First public release: **[v0.9 (2025-11-07)](https://github.com/onzelf/FCaC/tree/v0.9), commit 44b3da0**
 - SHA-256 of `README.md` at v0.9:
   **da95d644730a71c6b200992195d1c27a2d801aef2414a96d2e37fc4ced846962**
 
