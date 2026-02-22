@@ -1,10 +1,10 @@
-# FCaC — Federated Computing as Code
+# ✨ FCaC — Federated Computing as Code
 
 FCaC is a **governance and admission substrate** for federated computation: it compiles explicit constraints into **verifiable boundary artifacts** and produces **auditable evidence** of admission and use.
 
 ---
 
-## The Manifesto 📣
+## Manifesto 📣
 
 ### 1) Thesis
 Federated systems fail in practice not because we cannot run distributed compute, but because we cannot **enforce and prove governance decisions at runtime across organizational boundaries**.
@@ -101,7 +101,7 @@ If “member-of-consortium” implicitly grants access to byproducts, you have a
 
 <div  align="center">
 
-**Built with 🫶🏻 for demonstrating Federated Computing as Code**
+**Built with 🪄 for demonstrating Federated Computing as Code**
 
 </div>
 
